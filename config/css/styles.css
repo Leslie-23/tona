@@ -40,8 +40,10 @@ p.asideText {
   object-fit: cover;
   margin-right: 10px;
   flex-shrink: 0;
+  overflow-x: hidden;
 }
-.gallery2 img {
+.gallery2 img,
+img.gallery {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -52,6 +54,13 @@ p.asideText {
   font-size: 5rem;
   font-weight: bold;
   line-height: 1;
+}
+#personal-details2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  font-style: italic;
 }
 /* .les-img {
     width: 600px;
