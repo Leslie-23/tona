@@ -249,3 +249,22 @@ section {
 span {
   overflow-x: hidden;
 }
+a {
+  color: #fff;
+}
+a:hover {
+  color: greenyellow;
+  text-decoration: none;
+}
+.gallery123 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery123 img {
+  width: 100%;
+  height: auto;
+}
+.gallery123-item {
+  padding: 5px;
+  flex: 1 0 33%;
+}
